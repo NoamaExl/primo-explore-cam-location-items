@@ -1,5 +1,5 @@
 
-# Adding an altmetrics widget to the Primo full view
+# primo-explore Cambridge add links to holding and items — Edit
 
 
 ##Usage
