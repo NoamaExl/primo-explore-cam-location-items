@@ -161,6 +161,10 @@ class LocationItemsBeforeController {
                     controller: function controller($scope, $mdDialog) {
 
                         $scope.closeDialog = function () {
+                            let mask = angular.element(document.getElementsByClassName('md-scroll-mask'));
+                            if(mask && mask.length > 0){
+                                angular.element(document.getElementsByClassName('md-scroll-mask'))[0].remove();
+                            }
                             $mdDialog.hide();
                         };
                     }
