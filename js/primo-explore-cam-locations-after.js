@@ -20,8 +20,6 @@ class LocationItemsAfterController {
 
         angular.element(document.getElementsByTagName('prm-location-items')[0].children[1]).after($compile('<prm-location-items-before parent-ctrl="$ctrl.parentCtrl"></prm-location-items-before>')($scope));
 
-        angular.element(document.getElementsByClassName('md-scroll-mask'))[0].remove();
-
     }
 
 }
