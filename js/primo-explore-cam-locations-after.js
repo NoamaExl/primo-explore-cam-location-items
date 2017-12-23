@@ -141,9 +141,10 @@ class LocationItemsBeforeController {
                 var parentEl = angular.element(document.body);
                 var templateString = `<md-dialog style="width:100%;padding:2em;max-width:500px;" aria-label="List dialog">
                                     <md-dialog-content >
-                                        <iframe flex style="border-width:0px;width:100%;min-height:500px" src="`+widgetUrl+`">
-                                        </iframe>
-                                        </md-dialog-content>
+                                        <div>
+                                        <p>Due to a system upgrade, this service has been disabled.</p>
+                                        </div>
+                                    </md-dialog-content>
                                         <md-dialog-actions>
                                             <div flex layout="row" layout-align="center center">
                                                 <md-button ng-click="closeDialog()" class="md-primary">
